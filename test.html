@@ -1,0 +1,37 @@
+<html>
+<head>
+<style> 
+img {
+  width: 200px;
+  height: 100px;
+  position: relative;
+  animation-name: er_gato;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+audio{
+  position: fixed;
+  bottom: 300;
+  right: 550;
+}
+
+@keyframes er_gato {
+  0%   {left:0px; top:50px;}
+  25%  {transform: rotate(90deg); left:1150px; top:0px;}
+  50%  {transform: rotate(180deg); left:1150px; top:500px;}
+  75%  {transform: rotate(270deg); left:0px; top:500px;}
+  100% {transform: rotate(360deg); left:0px; top:0px;}
+}
+</style>
+</head>
+<body style="background-image: url('sfondo.jpg');">
+
+<img src="Nyan-Cat-PNG-Image.png">
+
+<audio controls align="middle">
+  <source src="Nyan Cat Instrumental.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
